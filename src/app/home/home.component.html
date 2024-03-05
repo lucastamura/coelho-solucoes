@@ -1,0 +1,53 @@
+<div class="container col">
+  <header class="row a-center j-between full-width">
+    <img src="../../assets/images/logo-coleho-solucoes.svg" alt="" />
+    <img src="../../assets/images/pontos-azuis.svg" alt="" />
+  </header>
+  <section class="home col j-center a-center g-32">
+    <img src="../../assets/images/image-home.svg" alt="" />
+    <h1>Renovando Águas, Cultivando Vida...</h1>
+    <h5>
+      Acreditamos que cada desafio é uma oportunidade de criar algo
+      extraordinário. Oferecemos soluções abrangentes nas áreas de de minas,
+      construção de tanques e lagos de peixes, e paisagismo de lagos.
+    </h5>
+    <img src="../../assets/images/pontos-azuis.svg" alt="" />
+  </section>
+  <section class="cards col j-center a-center g-32">
+    <h2>Transforme seu sonho em realidade</h2>
+    <div *ngFor="let card of cards" class="col a-center j-center">
+      <app-card-home
+        [title]="card.title"
+        [subTitle]="card.subTitle"
+        [image]="card.image"
+      ></app-card-home>
+      <img
+        src="../../assets/images/pontos-azuis.svg"
+        alt=""
+        class="pontos-cards"
+      />
+    </div>
+  </section>
+  <section class="contatos col g-32 j-center a-center">
+    <div class="row a-center j-between full-width">
+      <a
+        href="https://api.whatsapp.com/send?phone=14996656175&text=Gostaria%20de%20conhecer%20mais%20sobre%20a%20Coelho%20Soluções"
+        target="_blank"
+      >
+        <img src="../../assets/images/contato-whatsapp.svg" alt="" />
+      </a>
+      <a
+        href="https://www.instagram.com/coelho_minicavadeira?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        target="_blank"
+      >
+        <img src="../../assets/images/contato-instagram.svg" alt="" />
+      </a>
+      <a href="https://www.youtube.com/@coelhodaaquaponia9206" target="_blank">
+        <img src="../../assets/images/contato-youtube.svg" alt="" />
+      </a>
+      <img src="../../assets/images/contato-ttk.svg" alt="" />
+      <img src="../../assets/images/contato-images.svg" alt="" />
+    </div>
+    <img src="../../assets/images/logo-text.svg" alt="" class="logo-txt" />
+  </section>
+</div>
