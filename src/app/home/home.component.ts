@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 	cards = [
 		{
-			title: 'Projeto para algos',
+			title: 'Projeto para lagos',
 			subTitle: 'Projetamos e construímos  tanques e lagos de peixes, oferecendo uma experiência única de harmonia com a natureza.',
 			image: '../../assets/images/card-peixe.png',
 			route: 'lago',
